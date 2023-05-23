@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         supportList.add(new SupportModelClass(R.drawable.ic_emoji,"Smile Emoji"));
         supportList.add(new SupportModelClass(R.drawable.ic_videoplayer,"Video Player"));
         supportList.add(new SupportModelClass(R.drawable.ic_ball,"Badminton"));
-        Sport_AdapterClass sport_adapterClass=new Sport_AdapterClass(supportList,MainActivity.this);
+        sport_adapterClass=new Sport_AdapterClass(supportList,MainActivity.this);
         RecyclerViewSport.setAdapter(sport_adapterClass);
 
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         teamList.add(new TeamModelClass(R.drawable.pak,"Pakistan","#006600"));
         teamList.add(new TeamModelClass(R.drawable.iraaq,"Iraq","#b3d9ff"));
         teamList.add(new TeamModelClass(R.drawable.flagiran,"Iran","#d699ff"));
-        TeamAdapter teamAdapter=new TeamAdapter(teamList,MainActivity.this);
+        teamAdapter=new TeamAdapter(teamList,MainActivity.this);
         RecyclerViewTeam.setAdapter(teamAdapter);
 
 
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
       playerList.add(new PlayerModelClass(R.drawable.ll,"Sana"));
       playerList.add(new PlayerModelClass(R.drawable.aa,"Fazeelat"));
       playerList.add(new PlayerModelClass(R.drawable.cc,"Zainab"));
-        PlayerAdapter playerAdapter=new PlayerAdapter(playerList,MainActivity.this);
+        playerAdapter=new PlayerAdapter(playerList,MainActivity.this);
         RecyclerViewPlayer.setAdapter(playerAdapter);
 
      editTextSearch.addTextChangedListener(new TextWatcher() {
